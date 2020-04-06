@@ -29,6 +29,14 @@
 		1335DF5E243B09A600DFAD45 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335DF5D243B09A600DFAD45 /* HTTPTask.swift */; };
 		1335DF5F243B09A600DFAD45 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335DF5D243B09A600DFAD45 /* HTTPTask.swift */; };
 		1335DF60243B09A600DFAD45 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335DF5D243B09A600DFAD45 /* HTTPTask.swift */; };
+		1335DF66243B176300DFAD45 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335DF65243B176300DFAD45 /* ResponseHandler.swift */; };
+		1335DF67243B176300DFAD45 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335DF65243B176300DFAD45 /* ResponseHandler.swift */; };
+		1335DF68243B176300DFAD45 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335DF65243B176300DFAD45 /* ResponseHandler.swift */; };
+		134540A5243B1EF800956A30 /* MaskInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335DF51243B089200DFAD45 /* MaskInfoService.swift */; };
+		134540A6243B1EF800956A30 /* MaskInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335DF51243B089200DFAD45 /* MaskInfoService.swift */; };
+		134540A9243B23EC00956A30 /* MarkStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540A8243B23EC00956A30 /* MarkStorage.swift */; };
+		134540AA243B23EC00956A30 /* MarkStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540A8243B23EC00956A30 /* MarkStorage.swift */; };
+		134540AB243B23EC00956A30 /* MarkStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540A8243B23EC00956A30 /* MarkStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +77,8 @@
 		1335DF55243B08F700DFAD45 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 		1335DF59243B098200DFAD45 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		1335DF5D243B09A600DFAD45 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		1335DF65243B176300DFAD45 /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		134540A8243B23EC00956A30 /* MarkStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,7 @@
 				1335DF1A243B045400DFAD45 /* AppDelegate.swift */,
 				1335DF1C243B045400DFAD45 /* SceneDelegate.swift */,
 				1335DF1E243B045400DFAD45 /* ViewController.swift */,
+				134540A7243B23AB00956A30 /* Models */,
 				1335DF4A243B056300DFAD45 /* Networking */,
 				1335DF20243B045400DFAD45 /* Main.storyboard */,
 				1335DF23243B045500DFAD45 /* Assets.xcassets */,
@@ -165,6 +176,7 @@
 				1335DF59243B098200DFAD45 /* HTTPMethod.swift */,
 				1335DF5D243B09A600DFAD45 /* HTTPTask.swift */,
 				1335DF55243B08F700DFAD45 /* NetworkRouter.swift */,
+				1335DF65243B176300DFAD45 /* ResponseHandler.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -176,6 +188,14 @@
 				1335DF51243B089200DFAD45 /* MaskInfoService.swift */,
 			);
 			path = MaskInfoService.swift;
+			sourceTree = "<group>";
+		};
+		134540A7243B23AB00956A30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				134540A8243B23EC00956A30 /* MarkStorage.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +332,8 @@
 				1335DF1F243B045400DFAD45 /* ViewController.swift in Sources */,
 				1335DF1B243B045400DFAD45 /* AppDelegate.swift in Sources */,
 				1335DF4C243B05A600DFAD45 /* MaskInfoEndPoint.swift in Sources */,
+				1335DF66243B176300DFAD45 /* ResponseHandler.swift in Sources */,
+				134540A9243B23EC00956A30 /* MarkStorage.swift in Sources */,
 				1335DF5E243B09A600DFAD45 /* HTTPTask.swift in Sources */,
 				1335DF4E243B063700DFAD45 /* EndPointType.swift in Sources */,
 				1335DF5A243B098200DFAD45 /* HTTPMethod.swift in Sources */,
@@ -329,7 +351,10 @@
 				1335DF4F243B063700DFAD45 /* EndPointType.swift in Sources */,
 				1335DF57243B08F700DFAD45 /* NetworkRouter.swift in Sources */,
 				1335DF32243B045500DFAD45 /* TrueLoveSampleTests.swift in Sources */,
+				134540AA243B23EC00956A30 /* MarkStorage.swift in Sources */,
 				1335DF5B243B098200DFAD45 /* HTTPMethod.swift in Sources */,
+				134540A5243B1EF800956A30 /* MaskInfoService.swift in Sources */,
+				1335DF67243B176300DFAD45 /* ResponseHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +366,10 @@
 				1335DF50243B063700DFAD45 /* EndPointType.swift in Sources */,
 				1335DF58243B08F700DFAD45 /* NetworkRouter.swift in Sources */,
 				1335DF3D243B045500DFAD45 /* TrueLoveSampleUITests.swift in Sources */,
+				134540AB243B23EC00956A30 /* MarkStorage.swift in Sources */,
 				1335DF5C243B098200DFAD45 /* HTTPMethod.swift in Sources */,
+				134540A6243B1EF800956A30 /* MaskInfoService.swift in Sources */,
+				1335DF68243B176300DFAD45 /* ResponseHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
