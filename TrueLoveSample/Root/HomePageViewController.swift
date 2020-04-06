@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomePageViewController.swift
 //  TrueLoveSample
 //
 //  Created by CHEN YI-SHAIN on 2020/4/6.
@@ -8,13 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
+protocol HomePageScreen: class {
+    
 }
 
+class HomePageViewController: UIViewController {
+
+    var presenter: HomePagePresenter!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+    }
+
+}
