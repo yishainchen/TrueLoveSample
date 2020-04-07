@@ -20,7 +20,11 @@ enum NetworkResponse: Int, LocalizedError {
 
 typealias JSONFormat = [String: Any]
 
-struct MaskInfoService {
+protocol MaskInfoServiceProtocol {
+    func fetchMaskStorageInfo(with completion: @escaping (_ json: [MaskStorage]?, _ error: Error?) -> Void)
+}
+
+struct MaskInfoService: MaskInfoServiceProtocol {
     private let router = NetworkDefaultRouter<MaskInfoEndPoint>()
     
     func fetchMaskStorageInfo(with completion: @escaping (_ json: [MaskStorage]?, _ error: Error?) -> Void) {

@@ -15,6 +15,10 @@ struct MaskStorage: Decodable {
         case maskInfo = "properties"
     }
     
+    init(maskInfo: MaskInfo) {
+        self.maskInfo = maskInfo
+    }
+    
     init(from decoder: Decoder) throws {
           do {
               let values = try decoder.container(keyedBy: CodingKeys.self)

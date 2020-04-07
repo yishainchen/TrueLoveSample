@@ -10,14 +10,15 @@ import Foundation
 
 protocol HomePageInteractor {
     func getMaskStorageInfo(_ completion: @escaping (_ maskInfoMap: [String: Int]?) -> Void)
+    func setMaskInfoMap(with maskStorageList: [MaskStorage]) -> [String: Int]
 }
 
 class HomePageDefaultInteractor: HomePageInteractor {
     
-    private let maskInfoService: MaskInfoService
+    private let maskInfoService: MaskInfoServiceProtocol
     var maskInfoMap: [String: Int] = [:] // [CountyName: MaskCount]
     
-    init(maskInfoService: MaskInfoService) {
+    init(maskInfoService: MaskInfoServiceProtocol) {
         self.maskInfoService = maskInfoService
     }
     
@@ -27,12 +28,12 @@ class HomePageDefaultInteractor: HomePageInteractor {
                 completion(nil)
                 return
             }
-            weakSelf.setMaskInfoMap(with: maskStorageList)
-            completion(weakSelf.maskInfoMap)
+            completion(weakSelf.setMaskInfoMap(with: maskStorageList))
         }
     }
     
-    func setMaskInfoMap(with maskStorageList: [MaskStorage]) {
+    func setMaskInfoMap(with maskStorageList: [MaskStorage]) -> [String: Int] {
+        var maskInfoMap: [String: Int] = [:]
         for maskStorage in maskStorageList {
             let county = maskStorage.maskInfo.county
             
@@ -45,5 +46,6 @@ class HomePageDefaultInteractor: HomePageInteractor {
                 maskInfoMap[county] = maskStorage.maskInfo.adultMask
             }
         }
+        return maskInfoMap
     }
 }
