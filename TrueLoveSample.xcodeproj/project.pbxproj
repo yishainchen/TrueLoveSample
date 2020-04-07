@@ -74,6 +74,9 @@
 		134540E6243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540E5243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift */; };
 		134540E7243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540E5243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift */; };
 		134540E8243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540E5243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift */; };
+		1395F5D1243C0F2500EFD586 /* ActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395F5D0243C0F2500EFD586 /* ActivityIndicatorPresenter.swift */; };
+		1395F5D2243C0F2500EFD586 /* ActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395F5D0243C0F2500EFD586 /* ActivityIndicatorPresenter.swift */; };
+		1395F5D3243C0F2500EFD586 /* ActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395F5D0243C0F2500EFD586 /* ActivityIndicatorPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +130,7 @@
 		134540D9243B9F5C00956A30 /* CountyMaskInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountyMaskInfoTableViewCell.xib; sourceTree = "<group>"; };
 		134540E1243BA14200956A30 /* TableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewProtocol.swift; sourceTree = "<group>"; };
 		134540E5243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyMaskInfoTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		1395F5D0243C0F2500EFD586 /* ActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,7 @@
 				134540B0243B31C700956A30 /* Root */,
 				134540A7243B23AB00956A30 /* Models */,
 				134540E0243BA12300956A30 /* General */,
+				1395F5CF243C0F1400EFD586 /* Helper */,
 				134540C1243B33CA00956A30 /* Extension */,
 				1335DF4A243B056300DFAD45 /* Networking */,
 				1335DF23243B045500DFAD45 /* Assets.xcassets */,
@@ -319,6 +324,14 @@
 				134540E1243BA14200956A30 /* TableViewProtocol.swift */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		1395F5CF243C0F1400EFD586 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1395F5D0243C0F2500EFD586 /* ActivityIndicatorPresenter.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,6 +486,7 @@
 				134540E6243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */,
 				134540AD243B293F00956A30 /* MaskStorage.swift in Sources */,
 				134540D0243B9D0C00956A30 /* HomePageViewControllerViewModel.swift in Sources */,
+				1395F5D1243C0F2500EFD586 /* ActivityIndicatorPresenter.swift in Sources */,
 				134540B2243B31ED00956A30 /* HomePageInteractor.swift in Sources */,
 				1335DF5A243B098200DFAD45 /* HTTPMethod.swift in Sources */,
 				134540E2243BA14200956A30 /* TableViewProtocol.swift in Sources */,
@@ -503,6 +517,7 @@
 				134540BF243B33C600956A30 /* UIViewControllerExtension.swift in Sources */,
 				134540E3243BA14200956A30 /* TableViewProtocol.swift in Sources */,
 				134540AE243B293F00956A30 /* MaskStorage.swift in Sources */,
+				1395F5D2243C0F2500EFD586 /* ActivityIndicatorPresenter.swift in Sources */,
 				134540B7243B32AB00956A30 /* HomePagePresenter.swift in Sources */,
 				1335DF67243B176300DFAD45 /* ResponseHandler.swift in Sources */,
 			);
@@ -528,6 +543,7 @@
 				134540C0243B33C600956A30 /* UIViewControllerExtension.swift in Sources */,
 				134540E4243BA14200956A30 /* TableViewProtocol.swift in Sources */,
 				134540AF243B293F00956A30 /* MaskStorage.swift in Sources */,
+				1395F5D3243C0F2500EFD586 /* ActivityIndicatorPresenter.swift in Sources */,
 				134540B8243B32AB00956A30 /* HomePagePresenter.swift in Sources */,
 				1335DF68243B176300DFAD45 /* ResponseHandler.swift in Sources */,
 			);
