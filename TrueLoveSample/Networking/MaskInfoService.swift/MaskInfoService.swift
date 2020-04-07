@@ -14,7 +14,7 @@ enum NetworkResponse: Int, LocalizedError {
     case failed
     case noData
     case unableToDecode
-    case networkConnectionIssue = -1009
+    case networkConnectionIssue
     case cancelled
 }
 
@@ -39,8 +39,6 @@ struct MaskInfoService {
             case .failure(let error):
                 completion(nil, error)
             }
-            
-            
         }
     }
 }
