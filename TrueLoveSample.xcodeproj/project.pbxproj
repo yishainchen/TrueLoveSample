@@ -71,6 +71,9 @@
 		134540E2243BA14200956A30 /* TableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540E1243BA14200956A30 /* TableViewProtocol.swift */; };
 		134540E3243BA14200956A30 /* TableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540E1243BA14200956A30 /* TableViewProtocol.swift */; };
 		134540E4243BA14200956A30 /* TableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540E1243BA14200956A30 /* TableViewProtocol.swift */; };
+		134540E6243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540E5243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift */; };
+		134540E7243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540E5243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift */; };
+		134540E8243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134540E5243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +126,7 @@
 		134540D8243B9F5C00956A30 /* CountyMaskInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyMaskInfoTableViewCell.swift; sourceTree = "<group>"; };
 		134540D9243B9F5C00956A30 /* CountyMaskInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountyMaskInfoTableViewCell.xib; sourceTree = "<group>"; };
 		134540E1243BA14200956A30 /* TableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewProtocol.swift; sourceTree = "<group>"; };
+		134540E5243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyMaskInfoTableViewCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				134540CF243B9D0C00956A30 /* HomePageViewControllerViewModel.swift */,
+				134540E5243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -465,6 +470,7 @@
 				134540BA243B32BF00956A30 /* HomePageBuilder.swift in Sources */,
 				1335DF4E243B063700DFAD45 /* EndPointType.swift in Sources */,
 				134540DA243B9F5C00956A30 /* CountyMaskInfoTableViewCell.swift in Sources */,
+				134540E6243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */,
 				134540AD243B293F00956A30 /* MaskStorage.swift in Sources */,
 				134540D0243B9D0C00956A30 /* HomePageViewControllerViewModel.swift in Sources */,
 				134540B2243B31ED00956A30 /* HomePageInteractor.swift in Sources */,
@@ -487,6 +493,7 @@
 				134540B3243B31ED00956A30 /* HomePageInteractor.swift in Sources */,
 				1335DF57243B08F700DFAD45 /* NetworkRouter.swift in Sources */,
 				1335DF32243B045500DFAD45 /* TrueLoveSampleTests.swift in Sources */,
+				134540E7243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */,
 				134540AA243B23EC00956A30 /* MaskInfo.swift in Sources */,
 				1335DF5B243B098200DFAD45 /* HTTPMethod.swift in Sources */,
 				134540C5243B391900956A30 /* HomePageViewController.swift in Sources */,
@@ -511,6 +518,7 @@
 				134540B4243B31ED00956A30 /* HomePageInteractor.swift in Sources */,
 				1335DF58243B08F700DFAD45 /* NetworkRouter.swift in Sources */,
 				1335DF3D243B045500DFAD45 /* TrueLoveSampleUITests.swift in Sources */,
+				134540E8243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */,
 				134540AB243B23EC00956A30 /* MaskInfo.swift in Sources */,
 				1335DF5C243B098200DFAD45 /* HTTPMethod.swift in Sources */,
 				134540C6243B391900956A30 /* HomePageViewController.swift in Sources */,
