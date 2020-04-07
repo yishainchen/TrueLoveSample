@@ -77,6 +77,10 @@
 		1395F5D1243C0F2500EFD586 /* ActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395F5D0243C0F2500EFD586 /* ActivityIndicatorPresenter.swift */; };
 		1395F5D2243C0F2500EFD586 /* ActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395F5D0243C0F2500EFD586 /* ActivityIndicatorPresenter.swift */; };
 		1395F5D3243C0F2500EFD586 /* ActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395F5D0243C0F2500EFD586 /* ActivityIndicatorPresenter.swift */; };
+		1395F5D6243C30DB00EFD586 /* HomePageInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395F5D5243C30DB00EFD586 /* HomePageInteractorTests.swift */; };
+		1395F5DB243C358E00EFD586 /* UIViewControllerExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395F5DA243C358E00EFD586 /* UIViewControllerExtensionTests.swift */; };
+		1395F5DC243C37B200EFD586 /* MaskInfoEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335DF4B243B05A600DFAD45 /* MaskInfoEndPoint.swift */; };
+		1395F5DD243C37B200EFD586 /* MaskInfoEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335DF4B243B05A600DFAD45 /* MaskInfoEndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +135,8 @@
 		134540E1243BA14200956A30 /* TableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewProtocol.swift; sourceTree = "<group>"; };
 		134540E5243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyMaskInfoTableViewCellViewModel.swift; sourceTree = "<group>"; };
 		1395F5D0243C0F2500EFD586 /* ActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
+		1395F5D5243C30DB00EFD586 /* HomePageInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageInteractorTests.swift; sourceTree = "<group>"; };
+		1395F5DA243C358E00EFD586 /* UIViewControllerExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +206,8 @@
 		1335DF30243B045500DFAD45 /* TrueLoveSampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				1395F5D9243C356D00EFD586 /* ExtensionTests */,
+				1395F5D4243C309400EFD586 /* InteractorTests */,
 				1335DF31243B045500DFAD45 /* TrueLoveSampleTests.swift */,
 				1335DF33243B045500DFAD45 /* Info.plist */,
 			);
@@ -332,6 +340,22 @@
 				1395F5D0243C0F2500EFD586 /* ActivityIndicatorPresenter.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		1395F5D4243C309400EFD586 /* InteractorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1395F5D5243C30DB00EFD586 /* HomePageInteractorTests.swift */,
+			);
+			path = InteractorTests;
+			sourceTree = "<group>";
+		};
+		1395F5D9243C356D00EFD586 /* ExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				1395F5DA243C358E00EFD586 /* UIViewControllerExtensionTests.swift */,
+			);
+			path = ExtensionTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -502,6 +526,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1335DF5F243B09A600DFAD45 /* HTTPTask.swift in Sources */,
+				1395F5DB243C358E00EFD586 /* UIViewControllerExtensionTests.swift in Sources */,
 				134540BB243B32BF00956A30 /* HomePageBuilder.swift in Sources */,
 				1335DF4F243B063700DFAD45 /* EndPointType.swift in Sources */,
 				134540B3243B31ED00956A30 /* HomePageInteractor.swift in Sources */,
@@ -510,6 +535,7 @@
 				134540E7243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */,
 				134540AA243B23EC00956A30 /* MaskInfo.swift in Sources */,
 				1335DF5B243B098200DFAD45 /* HTTPMethod.swift in Sources */,
+				1395F5DC243C37B200EFD586 /* MaskInfoEndPoint.swift in Sources */,
 				134540C5243B391900956A30 /* HomePageViewController.swift in Sources */,
 				134540D1243B9D0C00956A30 /* HomePageViewControllerViewModel.swift in Sources */,
 				134540A5243B1EF800956A30 /* MaskInfoService.swift in Sources */,
@@ -517,6 +543,7 @@
 				134540BF243B33C600956A30 /* UIViewControllerExtension.swift in Sources */,
 				134540E3243BA14200956A30 /* TableViewProtocol.swift in Sources */,
 				134540AE243B293F00956A30 /* MaskStorage.swift in Sources */,
+				1395F5D6243C30DB00EFD586 /* HomePageInteractorTests.swift in Sources */,
 				1395F5D2243C0F2500EFD586 /* ActivityIndicatorPresenter.swift in Sources */,
 				134540B7243B32AB00956A30 /* HomePagePresenter.swift in Sources */,
 				1335DF67243B176300DFAD45 /* ResponseHandler.swift in Sources */,
@@ -533,6 +560,7 @@
 				134540B4243B31ED00956A30 /* HomePageInteractor.swift in Sources */,
 				1335DF58243B08F700DFAD45 /* NetworkRouter.swift in Sources */,
 				1335DF3D243B045500DFAD45 /* TrueLoveSampleUITests.swift in Sources */,
+				1395F5DD243C37B200EFD586 /* MaskInfoEndPoint.swift in Sources */,
 				134540E8243BA29D00956A30 /* CountyMaskInfoTableViewCellViewModel.swift in Sources */,
 				134540AB243B23EC00956A30 /* MaskInfo.swift in Sources */,
 				1335DF5C243B098200DFAD45 /* HTTPMethod.swift in Sources */,
